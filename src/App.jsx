@@ -4,9 +4,9 @@ import Navbar from './components/navbar'
 import { Body } from './components/body'
 import { Routes, Route } from 'react-router-dom'
 import { Home } from './page/Home'
-import { Contact } from './page/contact'
+import { Contact } from './page/Contact'
 import { About } from './page/about'
-import { Service } from './page/service'
+import { Service } from './page/Service'
 
 function App() {
   const fruits = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
