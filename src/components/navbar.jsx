@@ -7,8 +7,8 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between items-center h-16">
-
+        <div className="flex justify-between items-center h-16 gap-1">
+          <img src='favicon.svg' alt="Favicon"></img>
           <h1 className="text-xl font-bold">My Website</h1>
 
           {/* Desktop Menu */}
@@ -17,6 +17,7 @@ const Navbar = () => {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/services">Services</Link></li>
             <li><Link to="/contact">Contact</Link></li>
+            <li><Link to="/program">Program</Link></li>
           </ul>
 
           {/* Mobile Button */}
@@ -36,6 +37,7 @@ const Navbar = () => {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/program">Program</Link></li>
         </ul>
       )}
     </nav>
